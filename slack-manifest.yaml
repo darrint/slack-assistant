@@ -1,0 +1,24 @@
+_metadata:
+  major_version: 2
+  minor_version: 1
+display_information:
+  name: Team Roboto Bot
+  description: Posts a short nightly note about today's team Slack activity.
+features:
+  bot_user:
+    display_name: team-roboto-bot
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - channels:read
+      - channels:history
+      - channels:join
+      - groups:read
+      - groups:history
+      - chat:write
+      - users:read
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
